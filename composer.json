@@ -1,9 +1,10 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "notepadd",
+    "description": "API REST para gestión de actividades personales.",
     "keywords": [
-        "framework",
-        "laravel"
+        "Laravel",
+        "Notepadd",
+        "API"
     ],
     "license": "MIT",
     "type": "project",
