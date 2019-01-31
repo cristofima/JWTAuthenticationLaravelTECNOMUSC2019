@@ -19,7 +19,7 @@ class CreateActivitiesTable extends Migration
             $table->string('title', 25);
             $table->text('description');
             $table->enum('priority', ['L', 'M', 'H']);
-            $table->bigInteger('date');
+            $table->date('date');
             $table->timestamps();
             $table->foreign('user_id')
                 ->references('id')
